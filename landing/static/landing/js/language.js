@@ -107,8 +107,29 @@ let erasmusInfo = document.querySelector("#erasmusInfo");
 let farabi = document.querySelector("#farabi");
 let farabiinfo = document.querySelector("#farabiinfo");
 
+// Universities
 
+let u1 = document.querySelector("#u1");
+let u2 = document.querySelector("#u2");
+let u3 = document.querySelector("#u3");
+let u4 = document.querySelector("#u4");
+let u5 = document.querySelector("#u5");
+let u6 = document.querySelector("#u6");
+let u7 = document.querySelector("#u7");
+let u8 = document.querySelector("#u8");
+let u9 = document.querySelector("#u9");
 function uzbek() {
+    u1.textContent = `Synergy universiteti`;
+    u2.textContent = `Tomsk davlat universiteti`;
+    u3.textContent = `Ostim texnika universiteti`;
+    u4.textContent = `Kielce texnologiya universiteti`;
+    u5.textContent = `Istanbul Kent universiteti`;
+    u6.textContent = `Tojikiston davlat tibbiyot universiteti`;
+    u7.textContent = `Vistula universiteti`;
+    u8.textContent = `Davlat pedagogika universiteti`;
+    u9.textContent = `Tojikiston davlat turizm universiteti`;
+    
+    // Universities
     farabi.textContent = `Farobiy almashinuvi dasturi`;
     farabiinfo.textContent = `Farobiy almashinuvi dasturi bu oliy o'quv yurtlari o'rtasida talabalar va o'qituvchilar almashinuvi dasturi bo'lib, universitetlar va yuqori texnologiyalar institutlarida kichik, katta, magistratura va doktorantura darajalarida ta'lim beradi.
     Farobiy almashinuv dasturi talabalar yoki o'qituvchilarga bir yoki ikki semestr davomida o'zlarining ta'lim muassasalari tashqarisidagi oliy o'quv yurtlarida o'qish va o'qishlarini davom ettirishlariga imkon yaratishga qaratilgan.
@@ -130,7 +151,7 @@ function uzbek() {
 
 
 
-    growWithUs.textContent = "Biz bilan o'sing";
+    growWithUs.textContent = "Biz bilan yuksaling";
     whyUs.textContent = "Nega biz";
     aboutComany.textContent = "Kompaniya haqida";
     basicInformation.textContent = "Asosiy ma'lumotlar";
@@ -139,14 +160,14 @@ function uzbek() {
     whyTC.textContent = 'NEGA "TOP CONSULT"';
     whyTCIntro.textContent = "Top Consulting birinchi jamoasi kichik, ammo katta ambitsiyalarga ega. Barchamiz bir-birimizdan farq qilamiz, ammo birdam jamoaga birlashganmiz, g'ayratli va muvaffaqiyatga yo'naltirilganmiz. Biz umumiy maqsadlarga erishish uchun birgalikda harakat qilamiz. Biz uchun ta'lim biznes emas! Biz kabi oddiy odamlarga katta ishtiyoq bilan, kelajakdagi martaba ta'rifi bilan yordam bermoqchimiz."
     prices.textContent = "Narxlar";
-    prices1.textContent = "past narx (chunki biz to'g'ridan-to'g'ri universitetlar bilan ishlaymiz agentlarsiz)";
+    prices1.textContent = "Past narx (chunki biz to'g'ridan-to'g'ri universitetlar bilan ishlaymiz agentlarsiz)";
     prices2.textContent = "Qabul qilish tartibi chiqarilgandan keyin to'lov";
     prices3.textContent = "To'lovni qisman amalga oshirish imkoniyati";
     prices4.textContent = "O'qish paytida viza, martaba, uy-joy va o'qishni qo'llab-quvvatlash";
     fast.textContent = "Tez";
     fast1.textContent = "Tez jarayonlar (mijozlar kirish tartibini 3 kun ichida qabul qilishadi - 5 kun)";
     fast2.textContent = "Keng imkoniyatlar (Barcha mamlakatlarda mavjud bo'lgan universitetlar barcha fakultetlar uchun)";
-    ourStory.textContent = "BIZNING HIKOYAMIZ";
+    ourStory.textContent = "BIZNING TARIXIMIZ";
     ourBrightMemories.textContent = "Bizning yorqin xotiralarimiz";
     firstStep.textContent = "Birinchi qadam";
     firstStepInfo.textContent = "Bilan bog'liq xizmatlarni ko'rsatuvchi konsalting kompaniyasi ta'lim, o'z faoliyatini shu yilning 10-noyabrida boshladi.";
@@ -158,7 +179,7 @@ function uzbek() {
     // Countries
 
     countries.textContent = "Mamlakatlar";
-    countriesInfo.textContent = "Tadbir o'tkaziladigan joy haqida ma'lumot va galereya";
+    countriesInfo.textContent = "Mamlakatlar haqida ma'lumot va galereya";
 
     ourValue.textContent = "Rossiya";
     ourValueInfo.textContent = `ROSSIYA - Rossiya (Rossiya Federatsiyasi) - Yerning butun quruqligining 1/6 qismini egallagan dunyodagi eng yirik davlat. Bu uzoq tarixga, boy madaniyatga va saxovatli tabiatga ega mamlakat. Rossiya Federatsiyasi hududidagi ba'zi me'moriy va tarixiy va madaniy yodgorliklar YuNESKOning Jahon merosi ob'ektlari ro'yxatiga kiritilgan.
@@ -286,6 +307,17 @@ function uzbek() {
 };
 
 function russian() {
+    u1.textContent = `Университет Синерги`;
+    u2.textContent = `Томский государственный университет`;
+    u3.textContent = `Остимский технический университет`;
+    u4.textContent = `Кельцкий технологический университет`;
+    u5.textContent = `Стамбульский университет Кент`;
+    u6.textContent = `Таджикский Государственный Медицинский Университет`;
+    u7.textContent = `Вислинский университет`;
+    u8.textContent = `Государственный педагогический университет`;
+    u9.textContent = `Таджикский Государственный Университет Туризма`;
+
+    // Universities
     farabi.textContent = `Программа обмена Фараби `;
     farabiinfo.textContent = `Программа обмена Фараби - это программа обмена студентами и преподавателями между высшими учебными заведениями, обеспечивающая обучение и подготовку на уровне младших, старших курсов, выпускников и докторантов в университетах и институтах высоких технологий.
     Программа обмена Фараби направлена на то, чтобы дать возможность студентам или преподавателям продолжить учебу и обучение в высшем учебном заведении за пределами своего учебного заведения в течение одного или двух семестров.
@@ -316,7 +348,7 @@ function russian() {
     whyTC.textContent = 'ПОЧЕМУ "TOP CONSULT"';
     whyTCIntro.textContent = "Первая команда Top Consulting небольшая, но с большими амбициями. Мы все разные, но объединены в одну сплоченную команду, целеустремленную и нацеленную на успех. Мы работаем вместе для достижения общих целей. Для нас образование - это не бизнес! Мы хотим помочь обычным людям, таким как мы, с большим энтузиазмом определить будущую карьеру."
     prices.textContent = "Цены";
-    prices1.textContent = "низкая цена (так как мы работаем напрямую с вузами без агент)";
+    prices1.textContent = "Hизкая цена (так как мы работаем напрямую с вузами без агент)";
     prices2.textContent = "Оплата после выдачи приказа о приеме";
     prices3.textContent = "Возможность произвести оплату частично";
     prices4.textContent = "Визовая, карьерная, жилищная и учебная поддержка во время учебы";
@@ -335,7 +367,7 @@ function russian() {
     // Countries
 
     countries.textContent = "Страны";
-    countriesInfo.textContent = "Информация о месте проведения мероприятия и галерея";
+    countriesInfo.textContent = "Информация о стране и галерея";
 
     ourValue.textContent = "Россия";
     ourValueInfo.textContent = "Россия - Россия (Российская Федерация) — самое большое государство в мире, которое занимает 1/6 часть площади всей суши Земли. Это страна с многовековой историей, богатой культурой и щедрой природой. Некоторые архитектурные и историко-культурные памятники на территории РФ внесены в список объектов Всемирного Наследия ЮНЕСКО.Россия — родина великих поэтов и писателей, художников и архитекторов, ученых, музыкантов, композиторов, космонавтов и путешественников. Российская живопись, классическая музыка и балет являются частью мирового культурного наследия. Россия расположена в Северном полушарии, на севере материка Евразия. Условно границы между Европой и Азией проходят по Уральским горам, реке Урал и Каспийскому морю, поэтому часть страны находится в Европе, часть — в Азии. Россия граничит с восемнадцатью странами. Сухопутные границы имеет с Норвегией, Финляндией, Эстонией, Латвией, Литвой, Польшей, Белоруссией, Украиной, Абхазией, Грузией, Южной Осетией, Азербайджаном, Казахстаном, Китаем, Монголией и Северной Кореей. Морские границы — с Японией и США. Климат Центральной России характеризуется незначительными перепадами температур. Зимой средняя температура здесь составляет -10°С, а летом — +20°С. В Западной Сибири зимой температура воздуха может опускаться до -40°С, а летом, в среднем, +20°С. Самые низкие температуры — в Восточной Сибири. В поселке Оймякон в Якутии отмечена самая низкая температура (-72°С). Летом здесь прохладно и влажно, температура, в среднем, +19°С.";
@@ -427,6 +459,17 @@ function russian() {
 };
 
 function english() {
+    u1.textContent = `Synergy University`;
+    u2.textContent = `Tomsk State University`;
+    u3.textContent = `Ostim technical University`;
+    u4.textContent = `Kielce University of technology`;
+    u5.textContent = `Istanbul Kent University`;
+    u6.textContent = `Tajik State Medical University`;
+    u7.textContent = `Vistula University`;
+    u8.textContent = `State Pedagogical University`;
+    u9.textContent = `Tajik State University of Tourism`;
+
+    // Universities
     farabi.textContent = `The Farabi Exchange Program `;
     farabiinfo.textContent = `The Farabi Exchange Program is a student and teacher exchange program between higher education institutions, providing education and training at the junior, senior, graduate and doctoral levels at universities and high technology institutes.
     The Farabi exchange program aims to enable students or teachers to continue their studies and studies at a higher education institution outside their educational institution for one or two semesters.
@@ -458,7 +501,7 @@ function english() {
     whyTC.textContent = 'WHY "TOP CONSULT"';
     whyTCIntro.textContent = "The Top Consulting first team is small, but with big ambitions. We are all different, but united into one cohesive team, motivated and focused on success. We work together to achieve common goals. For us, education is not a business! We want to help ordinary people like us, with great enthusiasm, with the definition of a future career."
     prices.textContent = "Prices";
-    prices1.textContent = "low price (as we work directly with universities without agent)";
+    prices1.textContent = "Low price (as we work directly with universities without agent)";
     prices2.textContent = "Payment after issuing the order of admission";
     prices3.textContent = "Opportunity to make payment partly";
     prices4.textContent = "Visa, career, housing and study support during studies";
@@ -477,7 +520,7 @@ function english() {
     // Countries
 
     countries.textContent = "Countries";
-    countriesInfo.textContent = "Event venue location info and gallery";
+    countriesInfo.textContent = "Country information and gallery";
 
     ourValue.textContent = "Russia";
     ourValueInfo.textContent = "Russia - Russia (Russian Federation) - the largest state in the world, which occupies 1/6 of the entire land area of the Earth. It is a country with a long history, rich culture and generous nature. Some architectural and historical and cultural monuments on the territory of the Russian Federation are included in the list of UNESCO World Heritage Sites. Russia is the homeland of great poets and writers, artists and architects, scientists, musicians, composers, cosmonauts and travelers. Russian painting, classical music and ballet are part of the world cultural heritage. Russia is located in the Northern Hemisphere, in the north of the Eurasia continent. Conventionally, the borders between Europe and Asia run along the Ural Mountains, the Ural River and the Caspian Sea, therefore part of the country is located in Europe, part in Asia. Russia shares borders with eighteen countries. It has land borders with Norway, Finland, Estonia, Latvia, Lithuania, Poland, Belarus, Ukraine, Abkhazia, Georgia, South Ossetia, Azerbaijan, Kazakhstan, China, Mongolia and North Korea. Sea borders - with Japan and the USA. The climate of Central Russia is characterized by slight temperature differences. In winter, the average temperature here is -10 ° С, and in summer - + 20 ° С. In Western Siberia, in winter, the air temperature can drop to -40 ° С, and in summer, on average, + 20 ° С. The lowest temperatures are in Eastern Siberia. In the village of Oymyakon in Yakutia, the lowest temperature was noted (-72 ° C). In summer, it is cool and humid here, the average temperature is + 19 ° С.";
